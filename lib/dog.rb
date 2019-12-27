@@ -1,8 +1,8 @@
 class Dog 
-  
+  attr_accessor
   def initialize(name, breed)
     @name = name
-    @breed puts "Mutt"
+    @breed = breed
   end
   
 end 
